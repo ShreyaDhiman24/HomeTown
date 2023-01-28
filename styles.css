@@ -1,0 +1,124 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.hero {
+    background-image: url("images/torshov.jpg");
+    width: 740px;
+    height: 343px;
+    margin: 0px auto;
+    background-size: cover;
+    
+}
+#section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#place {
+    padding: 5px 8px;
+    background-color: #1D3557;
+    width: 225px;
+    border-radius: 10px;
+    /* margin: 0 auto; */
+    color: #FFFFFF;
+}
+
+#culture {
+    padding: 5px 10px;
+    width: 412px;
+    background: #457B9D;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin: 5px auto;
+}
+
+.activity {
+    width: 720px;
+    height: 378px;
+    left: 0px;
+    top: 343px;
+    margin: 0px auto;
+    background-color: #F1FAEE;
+    padding: 20px 10px;
+
+}
+
+.guide {
+    margin: 0px auto;
+    width: 720px;
+    height: 394px;
+    left: 0px;
+    top: 721px;
+    background: #FFFFFF;
+    display: flex;
+}
+
+#block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#park,
+#theatre,
+#sports {
+
+    margin: 0px auto;
+    padding: 20px;
+}
+
+#per {
+    width: 180px;
+    height: 248.67px;
+    left: 173px;
+    top: 73px;
+    padding: 10px;
+    background: url(per.jpg);
+    border-radius: 20px;
+}
+
+#guide-box {
+    width: 400px;
+    height: 294px;
+    left: 160px;
+    top: 50px;
+    display: flex;
+    padding: 10px 5 px;
+    align-items: center;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+#whataboutGuide {
+    padding: 10px;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#place:hover{
+    background-color:pink ;
+    text-shadow: 0px 0px 2px black;
+}
